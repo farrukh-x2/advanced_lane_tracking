@@ -1,7 +1,10 @@
 
 ## Advanced Lane Finding Project
 
-The goals / steps of this project are the following:
+The goals / steps of this project is to identify lanes on a road, determine the curvature and offset of the vehicle from the center.
+
+#### The notebook in the repository dives deep into the details for each step (along with visual outputs from each step). The steps include:
+
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
@@ -15,4 +18,11 @@ The goals / steps of this project are the following:
 ## GIF of Output
 ![](advanced_lane_finding.gif)
 
-### Original Video in the Repo 'advanced_lane_finding.mp4'
+### Original video (project_video.mp4) and processed video in the repository (advanced_lane_finding.mp4)
+
+#### camera_cal contains images used to calibrate and undistort the camera
+
+
+#### test_images contains images used to tune the algorithm
+
+#### output_images contains images saved from the jupyter notebook
