@@ -1,10 +1,12 @@
 
 ## Advanced Lane Finding Project
 
-The goals / steps of this project is to identify lanes on a road, determine the curvature and offset of the vehicle from the center.
+In this project, the goal is to write a software pipeline to identify in a video the lane boundaries, determine the curvature of the road and offset of the vehicle from the center
 
-#### The notebook in the repository dives deep into the details for each step (along with visual outputs from each step). The steps include:
+The Project
+---
 
+The goals / steps of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
@@ -15,14 +17,20 @@ The goals / steps of this project is to identify lanes on a road, determine the 
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-## GIF of Output
+Usage
+---
+Cloning the repository and running the notebook is all that's needed to make the project work
+
+Files
+---
+The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing the pipeline on single frames.
+
+The examples of the output from each stage of your pipeline in the folder are saved in folder `ouput_images`. The video called `project_video.mp4` is the video the pipeline works on.  
+
+`advanced_lane_finding` files contain the output. the mp4 is the original video and gif is displayed below:
+
 ![](advanced_lane_finding.gif)
 
-### Original video (project_video.mp4) and processed video in the repository (advanced_lane_finding.mp4)
-
-#### camera_cal contains images used to calibrate and undistort the camera
-
-
-#### test_images contains images used to tune the algorithm
-
-#### output_images contains images saved from the jupyter notebook
+Notebook
+---
+The `Jupyter_Notebook_Advanced_Lane_Finding.ipynb` notebook individually processes through each of the steps detailed above with accompanying images
