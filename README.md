@@ -1,7 +1,7 @@
-
 ## Advanced Lane Finding Project
+In this project, the goal is to write a software pipeline to identify in a video the lane boundaries, determine the curvature of the road and offset of the vehicle from the center. Output is shown below:
 
-In this project, the goal is to write a software pipeline to identify in a video the lane boundaries, determine the curvature of the road and offset of the vehicle from the center
+![](advanced_lane_finding.gif)
 
 The Project
 ---
@@ -23,13 +23,9 @@ Cloning the repository and running the notebook is all that's needed to make the
 
 Files
 ---
-The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing the pipeline on single frames.
-
-The examples of the output from each stage of your pipeline in the folder are saved in folder `ouput_images`. The video called `project_video.mp4` is the video the pipeline works on.  
-
-`advanced_lane_finding` files contain the output. the mp4 is the original video and gif is displayed below:
-
-![](advanced_lane_finding.gif)
+* The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing the pipeline on single frames.
+* The examples of the output from each stage of your pipeline in the folder are saved in folder `ouput_images`. The video called `project_video.mp4` is the video the pipeline works on.  
+* `advanced_lane_finding` files contain the output. the mp4 is the original video and gif is displayed above:
 
 Notebook
 ---
